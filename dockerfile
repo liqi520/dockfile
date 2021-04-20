@@ -1,4 +1,4 @@
-FROM openpai/standard:python_3.6-pytorch_1.4.0-gpu
+FROM openpai/standard:python_3.6-pytorch_1.2.0-gpu
 RUN apt-get update
 RUN apt-get -y install libglib2.0-dev
 RUN apt-get -y install libsm6
